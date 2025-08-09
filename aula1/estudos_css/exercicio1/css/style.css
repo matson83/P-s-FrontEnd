@@ -1,0 +1,28 @@
+:root{
+    --color: darkslategrey;
+    --font-family:arial,sans-serif;
+    --font-size:17px;
+}
+
+body{
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+
+.header-title{
+    text-align: center;
+    color: darkblue;
+}
+
+.section-title h2 h3 p{
+    color: darkblue;
+    background-color: lightseagreen;
+}
+
+.experience{
+    color: darkblue;
+    :visited{
+        color: darkblue;
+    }
+}
