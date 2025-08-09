@@ -1,28 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playwrite+HU:wght@100..400&display=swap');
+
 :root{
-    --color: darkslategrey;
-    --font-family:arial,sans-serif;
+    --color: rgb(0, 0, 0);
     --font-size:17px;
 }
 
 body{
     color: var(--color);
-    font-family: var(--font-family);
+    font-family: Libertinus, Playwrite HU, sans-serif;
     font-size: var(--font-size);
+    background-color: rgb(255, 255, 255);
+}
+
+.section-icons {
+  display: flex;
+  justify-content: center;
 }
 
 .header-title{
     text-align: center;
-    color: darkblue;
+    color: rgb(0, 0, 0);
 }
 
-.section-title h2 h3 p{
-    color: darkblue;
-    background-color: lightseagreen;
+.section-title h2 h3{
+    color: black;
+}
+
+.section-title h3 a{
+    color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .experience{
-    color: darkblue;
+    color: rgb(0, 0, 0);
     :visited{
-        color: darkblue;
+        color: rgb(0, 0, 0);
     }
+}
+
+span{
+    color: rgb(0, 0, 0);
 }
